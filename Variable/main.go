@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// capital letter in golang is equivalent to Public
+const LoginToken string = "hhhhh"
+
 func main() {
 
 	var username string = "Madhvendra Singh"
@@ -32,5 +35,7 @@ func main() {
 
 	number := 43.0
 	fmt.Println(number)
+
+	fmt.Println(LoginToken)
 
 }
