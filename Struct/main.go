@@ -21,7 +21,7 @@ func main() {
 	// fmt.Println(" %v and %v", myCar, truck)
 
 	r := rect{56, 75}
-
+	// interface
 	fmt.Println(test(r))
 
 	auth := AuthenticationInfo{
